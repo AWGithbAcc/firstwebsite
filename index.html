@@ -2,7 +2,7 @@
 <html>
 <head>
 	
-<link rel="stylesheet" type="text/css" href="file:///Macintosh HD/Users/1019532/Desktop/mystyle.css">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 
 <style>
 	
@@ -45,16 +45,20 @@ animation-iteration-count: infinite;
 
 <div class="headerdiv" style="font-size: 50px;"><animation>Arthur's Website</animation></div>
 	
-<div style="background-color:rgb(160,12,48); color: #e4dfda; text-align: center; padding: 15px;">Home <a href="about.html">About Me</a><a href="favoritethings.html">Favorite Things</a><a href="contactme.html">Contact Me</a></div>
+<div style="background-color:rgb(160,12,48); color: #e4dfda; text-align: center; padding: 15px;">Home <a href="about.html" class="button">About Me</a><a href="favoritethings.html" class="button">Favorite Things</a><a href="contactme.html" class="button">Contact Me</a></div>
 	
-<h2 style="font-size: 30px; text-align: center"> Welcome to my website!</h2>
+<h2 style="font-size: 30px; text-align: center;"> Welcome to my website!</h2>
 	
-<img src="Fries.jpeg" alt="Graphic Designer" height="300px" width="300px" style="float: left; margin-right: 15px;">	
-	
+<img src="Fries.jpeg" alt="Fries" height="300px" width="300px" style="float: left; margin-right: 15px;">	
+<!--	
 <img src="danny guy.jpeg" alt="Graphic Designer" height="100px" width="100px" style="float: right; border-style: dotted; margin-right: 15px;">	
-
-<p style="font-size: 25px;"><span>Hello, my name is Arthur, I am a graphic and&nbsp; web design student for Mr Grable's class in Oceanside California at El Camino High School, who loves to take on hard tasks, and keep on improving. This is my first ever website come have a look around!</span></p>
-
+-->
+<p style="font-size: 25px;"><span>Hello, my name is Arthur, I am a graphic and web design student for Mr Grable's class in Oceanside California at El Camino High School, who loves to take on hard tasks, and keep on improving. This is my first ever website come have a look around!</span></p>
+	
+<h2 style="font-size: 30px;">For <strike>grable</strike> my viewer:</h2>
+	
+	<p style="font-size: 25px;">The page meets all standards and requirements that were asked for, page has headers that all link to different pages&nbsp; and a short introduction to my website aswell, page also has an external CSS that makes the buttons feel more alive and animated, the DIV columns in the bottom have custom hover and click animations that also take you to the other pages, and website includes a basic image that also has alt text that matches the overall theme of my site, there's also an added button that links to an amazing website that you should totally check out!</p>
+	
 <p><h3>Bad things happen when you click here...</h3></p>
 
 <!--REDIRECTS TO GRABLE GRAPHICS-->
@@ -67,15 +71,30 @@ location.replace("https://grablegraphics.com/")
 </script>
 
 <div style="clear: both;"></div>
+
+<a href="about.html" class="thirdcolumn-link">
+  <div class="thirdcolumn">
+    <h3>About Me</h3>
+    <p>Learn more about what I do!</p>
+    <p>Read more...</p>
+  </div>
+</a>
 	
-<div class="thirdcloumn; thirdcolumn"><h3>About Me</h3><p>
-	learn more about what i do!</p><p> Read more...</p>
-	</div>
-<div class="thirdcloumn; thirdcolumn"><h3>Favorite Things</h3><p>
-learn about my favorite things!</p><p>Read more...</p></div>
+<a href="favoritethings.html" class="thirdcolumn-link">
+   <div class="thirdcolumn">
+	<h3>Favorite Things</h3>
+	<p>learn about my favorite things!</p>
+	<p>Read more...</p>
+  </div>
+</a>
 	
-<div class="thirdcloumn; thirdcolumn"><h3>Contact</h3><p>
-	Contact me about anything!</p><p>Reaad more...</p></div>
+<a href="contactme.html" class="thirdcolumn-link">
+   <div class="thirdcolumn">
+	<h3>Contact</h3>
+	<p>Contact me about anything!</p>
+	<p>Reaad more...</p>
+  </div>
+</a>
 	
 <div style="clear: both;"></div>
 	

@@ -2,65 +2,90 @@
 /* CSS Document */
 
 .headerdiv {
-	background-color: #000000;
-	color: #e4dfda;
-	text-align: center;
-	padding: 25px;
+  background-color: #000000;
+  color: #e4dfda;
+  text-align: center;
+  padding: 25px;
 	}
 
 #footer {
-	background-color: #000000;
-	color: #e4dfda;
-	text-align: center;
-	padding: 25px;
+  background-color: #000000;
+  color: #e4dfda;
+  text-align: center;
+  padding: 25px;
 	}
 
 a:link {
-  color: white;
-	background-color:darkred;
-	padding: 10px 15px;
-	margin: 5px 15px;
-	border-radius: 2px;
-	border-style: solid;
-	border-color: black;
-	text-decoration: none;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* visited link */
 a:visited {
-  color: grey;
-	 ;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
-	box-shadow: 0px 0px 5px 3px hotpink;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 
 /* selected link */
 a:active {
+}
+
+.button:link {
+  color: white;
+  background-color:darkred;
+  padding: 10px 15px;
+  margin: 5px 15px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:visited {
+  color: grey;
+}
+
+.button:hover {
+  color: hotpink;
+  box-shadow: 0px 0px 5px 3px hotpink;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:active {
   color: lightblue;
-	box-shadow: 0px 0px 5px 3px lightblue;
+  box-shadow: 0px 0px 5px 3px lightblue;
 }
 
 body {background-color: rgb(255,255,255)}
 
 .thirdcolumn {
-	width: 30%;
-	margin: 10px;
-	border-style: solid;
-	padding: 15px;
-	float: left;
-	box-shadow: 0 6px 14px rgba(0,0,0,0.1);
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 30%;
+  margin: 10px;
+  border-style: solid;
+  padding: 15px;
+  float: left;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.2s ease;
 }
 
 .thirdcolumn:hover {
-	  transform: translateY(-5px) scale(1.03);
+  background-color: #d3d3d3;
+  transition: transform 0.3 ease, background-color 0.3s ease;
+  transform: translateY(-5px) scale(1.03);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.thirdcolumn:active {
+  background-color: lightblue;
+  transition: transform 0.1s ease, background-color 0.1s ease, box-shadow 0.1s ease;
+  transform: translateY(5px) scale(0.95);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 	
+}
+
+.thirdcolumn-link {
+  text-decoration: none;
+  color: inherit; 
+  display: block; 
 }
